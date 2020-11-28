@@ -1,4 +1,4 @@
-# Poroteo Senado
+# Poroteo Diputades
 
 ## ¿Cómo levantar el ambiente?
 `npm install`
@@ -10,7 +10,7 @@ Correr el comando `npm run export` y se creará la carpeta `/out` que es la que 
 Podés utilizar [heroku](https://heroku.com) para hacer un deploy.
 
 ### Pre requisitos
-0. Tener creado el proyecto *poroteosenado* en heroku
+0. Tener creado el proyecto *poroteodiputades* en heroku
 1. Se debe tener instalado el [cliente de heroku](https://devcenter.heroku.com/articles/heroku-cli)
 2. Loguearse ejecutando el comando
 ```bash
@@ -18,7 +18,7 @@ heroku login
 ```
 3. Asociar repositorio de git a heroku
 ```bash
-heroku git:remote -a poroteosenado
+heroku git:remote -a poroteodiputades
 ```
 
 ### Deploy en heroku

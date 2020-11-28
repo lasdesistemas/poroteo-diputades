@@ -2,13 +2,7 @@
 export default () => (
 
     <div className='links'>
-      <p> Más info en:</p>
-      <a href='https://activaelcongreso.org/'>
-        <img
-          className='activa-logo'
-          src='static/assets/img/logos/activa2.png'
-          alt='Activa el Congreso' />
-      </a>
+      <p> Datos de:</p>
       <a href='https://docs.google.com/spreadsheets/d/1TUTag7Majqhn5noRLLMUJ6SFJ0Phwlo-Oc1T59uSZCE/edit#gid=219162967'>
         <img
           className='ecofeminita-logo'

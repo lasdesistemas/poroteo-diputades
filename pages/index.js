@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from '../components/head'
 import Header from '../components/header'
+import Menu from '../components/menu'
 import Tarjeta from '../components/tarjeta'
 import FechaActualizacion from '../components/fecha-actualizacion'
 import Footer from '../components/footer'
@@ -54,6 +55,7 @@ export default class extends React.Component {
       <div className='container'>
             <Head/>
             <Header />
+            <Menu/>
             {
               this.state.votos &&
               <div className="fila">
